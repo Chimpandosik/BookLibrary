@@ -11,7 +11,7 @@ def main():
         "Евгений Онегин", "Пушкин", 1833,
         email="user@example.com"
     )
-    ebook1.set_link("email")
+    ebook1.set_link("book@example.com")
 
     lib = Library()
     lib.add_book(book1)
